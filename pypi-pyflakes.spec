@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyflakes
 Version  : 2.4.0
-Release  : 88
+Release  : 89
 URL      : https://files.pythonhosted.org/packages/15/60/c577e54518086e98470e9088278247f4af1d39cb43bcbd731e2c307acd6a/pyflakes-2.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/15/60/c577e54518086e98470e9088278247f4af1d39cb43bcbd731e2c307acd6a/pyflakes-2.4.0.tar.gz
 Summary  : passive checker of Python programs
@@ -15,9 +15,6 @@ Requires: pypi-pyflakes-license = %{version}-%{release}
 Requires: pypi-pyflakes-python = %{version}-%{release}
 Requires: pypi-pyflakes-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: pyflakes
-Provides: pyflakes-python
-Provides: pyflakes-python3
 
 %description
 ========
@@ -70,7 +67,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641475359
+export SOURCE_DATE_EPOCH=1651016022
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
