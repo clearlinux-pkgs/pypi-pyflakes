@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyflakes
 Version  : 2.5.0
-Release  : 93
+Release  : 94
 URL      : https://files.pythonhosted.org/packages/07/92/f0cb5381f752e89a598dd2850941e7f570ac3cb8ea4a344854de486db152/pyflakes-2.5.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/07/92/f0cb5381f752e89a598dd2850941e7f570ac3cb8ea4a344854de486db152/pyflakes-2.5.0.tar.gz
 Summary  : passive checker of Python programs
