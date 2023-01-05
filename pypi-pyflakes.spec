@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyflakes
 Version  : 3.0.1
-Release  : 98
+Release  : 99
 URL      : https://files.pythonhosted.org/packages/f2/51/506ddcfab10d708e8460554cc1cf37c727a6a2cccbad8dfe57766cfce33c/pyflakes-3.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f2/51/506ddcfab10d708e8460554cc1cf37c727a6a2cccbad8dfe57766cfce33c/pyflakes-3.0.1.tar.gz
 Summary  : passive checker of Python programs
