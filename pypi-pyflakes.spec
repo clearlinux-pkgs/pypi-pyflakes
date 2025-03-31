@@ -6,10 +6,10 @@
 # autospec commit: 247c192
 #
 Name     : pypi-pyflakes
-Version  : 3.3.1
-Release  : 107
-URL      : https://files.pythonhosted.org/packages/1e/13/4b463974c9443b7b3d98ab0e9443c60cc14af357a2dd130c7755c49e8eb4/pyflakes-3.3.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/1e/13/4b463974c9443b7b3d98ab0e9443c60cc14af357a2dd130c7755c49e8eb4/pyflakes-3.3.1.tar.gz
+Version  : 3.3.2
+Release  : 108
+URL      : https://files.pythonhosted.org/packages/af/cc/1df338bd7ed1fa7c317081dcf29bf2f01266603b301e6858856d346a12b3/pyflakes-3.3.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/af/cc/1df338bd7ed1fa7c317081dcf29bf2f01266603b301e6858856d346a12b3/pyflakes-3.3.2.tar.gz
 Summary  : passive checker of Python programs
 Group    : Development/Tools
 License  : MIT
@@ -65,13 +65,13 @@ python3 components for the pypi-pyflakes package.
 
 
 %prep
-%setup -q -n pyflakes-3.3.1
-cd %{_builddir}/pyflakes-3.3.1
+%setup -q -n pyflakes-3.3.2
+cd %{_builddir}/pyflakes-3.3.2
 pushd ..
-cp -a pyflakes-3.3.1 buildavx2
+cp -a pyflakes-3.3.2 buildavx2
 popd
 pushd ..
-cp -a pyflakes-3.3.1 buildapx
+cp -a pyflakes-3.3.2 buildapx
 popd
 
 %build
@@ -79,7 +79,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1743428469
+export SOURCE_DATE_EPOCH=1743437522
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
